@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+}
+.first {
+    background-color: #1F2937;
+}
+
+.header_logo {
+font-size: 24px;
+color: #F9FAF8;
+margin-left: 18%;
+padding: 10px;
+font-weight: bold;
+}
+
+.header_link {
+font-size: 18px;
+padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.links {
+    margin-left: auto;
+    display: flex;
+    margin-right: 18%;
+}
