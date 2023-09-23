@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+.white {
+    color: #F9FAF8;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -10,19 +14,20 @@ body {
 }
 .first {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    height: 500px
 }
 
 .header_logo {
-font-size: 24px;
-color: #F9FAF8;
-margin-left: 18%;
-padding: 10px;
-font-weight: bold;
+    font-size: 24px;
+    margin-left: 18%;
+    padding: 10px;
+    font-weight: bold;
 }
 
 .header_link {
-font-size: 18px;
-padding: 10px;
+    padding: 10px;
 }
 
 a {
@@ -33,4 +38,52 @@ a {
     margin-left: auto;
     display: flex;
     margin-right: 18%;
+}
+
+.subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+    max-width: 400px;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 400px;
+}
+
+.signup {
+    background-color: #3882F6;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #3882F6;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 15px;
+}
+
+.second {
+    display: flex;
+    margin: auto 0;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.image {
+    background-color: gray;
+    flex: 1;
+    display: flex;
+}
+
+.subtext.picture {
+    margin: auto;
 }
